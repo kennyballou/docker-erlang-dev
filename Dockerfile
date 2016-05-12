@@ -30,6 +30,7 @@ RUN apk update \
     && curl -fSL "$OTP_SRC_URL" -o otp-src.tar.gz \
     && mkdir -p /usr/src/otp-src \
     && tar -zxf otp-src.tar.gz -C /usr/src/otp-src --strip-components=1 \
+    && rm otp-src.tar.gz \
     && cd /usr/src/otp-src \
     && ./otp_build autoconf \
     && ./configure \
