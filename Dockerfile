@@ -5,6 +5,7 @@ MAINTAINER kballou@devnulllabs.io
 RUN apk update && apk add \
     autoconf \
     gcc \
+    git \
     m4 \
     make \
     musl-dev \
