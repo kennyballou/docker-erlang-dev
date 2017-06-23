@@ -1,5 +1,7 @@
 # Docker Erlang (Development Tools) #
 
+*_DEPRECATED_*: Please use the `dev` tags on [docker-erlang][2].
+
 Erlang Docker container for running and developing Erlang/OTP applications.
 
 ## LICENSE ##
@@ -10,3 +12,5 @@ conditions, please see the attached `LICENSE` file or the license can be found
 [online][1].
 
 [1]: http://www.gnu.org/licenses/gpl.html
+
+[2]: https://hub.docker.com/r/kennyballou/docker-erlang
